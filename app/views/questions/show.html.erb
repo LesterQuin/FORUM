@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+
+  <h3>Content:</h3>
+  <%= @question.content %>
+
+
+<%= link_to 'Edit', edit_question_path(@question), class:"btn btn-outline-success" %> 
+<%= link_to 'Back', questions_path, class:"btn btn-outline-success" %>
